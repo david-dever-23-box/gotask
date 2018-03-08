@@ -43,7 +43,8 @@ build: check
 	@echo "--- Successfully built '$(SERVICE_NAME)-$(KERNEL_NAME)-$(MACHINE) $(VERSION)' ---"
 
 install:
-	@echo "$(VERSION)"
+	@sudo cp ./bin/gotask /usr/local/bin/
+	@echo "--- Successfully installed '$(SERVICE_NAME) ($(KERNEL_NAME)-$(MACHINE) $(VERSION))' to `which gotask` ---"
 
 version:
 	@echo "$(VERSION)"
