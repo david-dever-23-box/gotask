@@ -1,0 +1,36 @@
+{
+  "Deadline": "30s",
+  "Disable": [
+    "aligncheck",
+    "errcheck",
+    "gas",
+    "goconst",
+    "gocyclo",
+    "goimports",
+    "golint",
+    "gosimple",
+    "gotype",
+    "interfacer",
+    "lll",
+    "maligned",
+    "megacheck",
+    "staticcheck",
+    "structcheck",
+    "unconvert",
+    "unparam",
+    "unused",
+    "varcheck"
+  ],
+  "Enable": [
+    "deadcode",
+    "dupl",
+    "gotypex",
+    "ineffassign",
+    "misspell",
+    "safesql",
+    "staticcheck",
+    "vet"
+  ],
+  "LineLength": 120,
+  "VendoredLinters": true
+}
