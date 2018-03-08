@@ -1,3 +1,4 @@
 package cli
 
-const Version = "0.9.0"
+// Version is set using -ldflags during build
+var Version string
